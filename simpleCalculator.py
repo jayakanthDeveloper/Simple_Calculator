@@ -12,6 +12,7 @@ def div(a, b):
         return "Cannot divide by zero"
     return a / b
 
+print("Simple calculator")
 while True:
     print("1.Add 2.Sub 3.Mul 4.Div 5.Exit")
     ch = int(input("Enter choice: "))
